@@ -1,0 +1,11 @@
+.footertop {
+  display: flex;
+  align-items: center;
+}
+.footertop li {
+  list-style: none;
+}
+.footertop img {
+  width: auto;
+  height: 250px;
+}

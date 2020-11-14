@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./Header";
+import "bootstrap/dist/css/bootstrap.css";
+import Center from "./Center";
+import Slidepics from "./Slidepics";
+import Centerdown from "./Centerdown";
+import Footertop from "./Footertop";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <Header />
+      </div>
+      <div className="centerpic">
+        {" "}
+        <Center />
+      </div>
+      <div
+        style={{
+          width: "100%",
+          paddingTop: "30px",
+
+          paddingBottom: "30px",
+        }}
+      >
+        <Slidepics />
+        <div>
+          <Centerdown />
+        </div>
+      </div>
+      <div>
+        <Footertop />
+      </div>
+      <div
+        style={{
+          backgroundColor: " rgb(228, 46, 46)",
+          borderRadius: "40% 40% 0% 2%",
+        }}
+      >
+        <Footer />
+      </div>
     </div>
   );
 }

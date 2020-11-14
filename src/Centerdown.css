@@ -1,0 +1,36 @@
+.centerdown {
+  background-color: yellow;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  height: 700px;
+  width: -50px;
+  top: 20px;
+  border-radius: 50% 10% 10% 50%;
+}
+.centerdown1 {
+  background-color: yellow;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 300px;
+  width: 300px;
+  border-radius: 10% 50% 50% 10%;
+}
+.headingp {
+  display: flex;
+  font-size: 40px;
+  color: rgb(228, 46, 46);
+}
+.headingpp {
+  display: flex;
+  font-size: large;
+}
+.headingppp {
+  display: flex;
+  font-size: 30px;
+  color: rgb(228, 46, 46);
+}
+.centerdown input {
+  border-radius: 10px;
+}

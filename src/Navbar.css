@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.nav-list li {
+  list-style: none;
+}
+.nav-list a {
+  text-decoration: none;
+}
